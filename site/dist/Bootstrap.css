@@ -1,0 +1,67 @@
+@import 'bootstrap/dist/style.css';
+
+
+nav {
+    background-color: #e3f2fd;
+  }
+
+.jumbotron.tab-pane.fade.show.active {
+    background-color:hsl(0, 0%, 100%);
+  }
+  @media screen and (max-width: 950px) {
+    .navbar-header {
+        float: none;
+    }
+
+  .navbar{
+    background:#e3f2fd;
+   }
+   .nav-link , .navbar-brand{
+    color: #000000;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: #0a0a0a;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+   .navbar-toggler{
+     background:#fff !important;
+   }
+}
+
+.bg-image.d-flex.justify-content-center.align-items-center {
+    background-image: url('https://w.forfun.com/fetch/b5/b5623d1d9fc68b886952942893852ce7.jpeg');
+    height: 100vh;
+  }
+
+  .bg-image { 
+    background-image: linear-gradient(to right,#3c759e,#1c3685,#42275a, #734b6d);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+  }
+
+  a.nav-link.dropdown-toggle {
+    color: #0a0a0a;
+  }
+
+  a.nav-link {
+    color: #0a0a0a;
+  }
+
+.jumbotron {
+  background:#cbe7fb;
+ }
+
+ .box {
+  display: block;
+  background-color: #e9ecef;
+  border-color: #728191 !important;
+}
