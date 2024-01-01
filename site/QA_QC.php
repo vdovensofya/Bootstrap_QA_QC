@@ -14,6 +14,7 @@
     <script src="dist/bootstrap.js"></script>
   </head>
   <body>
+ <!---------------------------------Вставка хедера-------------------------------------->
 <header>
  <span class="border-bottom box">
   <?php include 'menu.php'; ?>
@@ -32,7 +33,16 @@
      </div>
    </div>
   </div>
-</section>
+ </section>
+ <!---------------------------------Вставка футера-------------------------------------->
+ <footer class="footer">
+    <div class="container-fluid">
+     <img src="img/brend.png"  class="logo left">
+     <img src="img/dobrzaim.png"  class="logo left">
+     <p class="text-dark"><strong>Сделано от Web ОТ для ОТ</strong></p>
+    </div>
+  </footer>
+ <!-------------------------------------------------------------------------------------->
 
     <!-- Отдельные JS для Popper и Bootstrap -->
     

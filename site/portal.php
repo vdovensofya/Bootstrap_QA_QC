@@ -14,12 +14,12 @@
     <script src="dist/bootstrap.js"></script>
   </head>
   <body>
+   <!---------------------------------Вставка хедера-------------------------------------->
  <header>
   <span class="border-bottom box">
   <?php include 'menu.php'; ?>
  </header>
  <header class="header">
- </header>
  </header>
  <!-------------------------------------------------------------------------------------->
  <!-- Cтраница по порталу Грейды -->
@@ -35,15 +35,15 @@
      <!-- Вопрос о Грейдах компании -->
      <div class="accordion" id="accordionExample">
        <div class="card">
-        <div class="card-header" id="headingOne">
-             <h2 class="mb-0">
+         <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                  </svg> Какие грейды существуют в нашей компании?</strong></p>
-               </button>
+                <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg> Какие грейды существуют в нашей компании?</strong></p>
+              </button>
             </h2>
-        </div>
+         </div>
           <!-- Ответ о Грейдах компании -->
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
            <div class="card-body">
@@ -63,9 +63,9 @@
           </div>
          </div>
        </div>
-     </div>
-     <!-- Темы для: Стажер тестировщик-программист -->
-     <div class="card">
+      </div>
+    <!-- Темы для: Стажер тестировщик-программист -->
+    <div class="card">
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -272,17 +272,17 @@
      </div>
       <!-- Темы для: Младший тестировщик-программист 3 категории -->
      <div class="card">
-      <div class="card-header" id="headingFour">
-        <h2 class="mb-0">
-          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+       <div class="card-header" id="headingFour">
+         <h2 class="mb-0">
+           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+             <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
               <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-            </svg> Темы для: Младший тестировщик-программист 3 категории</strong></p>
-          </button>
-        </h2>
-      </div>
-     <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 3 категорией -->
-      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+             </svg> Темы для: Младший тестировщик-программист 3 категории</strong></p>
+           </button>
+         </h2>
+       </div>
+       <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 3 категорией -->
+       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -443,19 +443,20 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Младший тестировщик-программист 2 категории -->
      <div class="card">
-      <div class="card-header" id="headingFive">
-        <h2 class="mb-0">
-          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+       <div class="card-header" id="headingFive">
+         <h2 class="mb-0">
+           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
               <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
             </svg> Темы для: Младший тестировщик-программист 2 категории</strong></p>
           </button>
-        </h2>
-      </div>
-     <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 2 категорией -->
-      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+         </h2>
+       </div>
+       <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 2 категорией -->
+       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -589,9 +590,10 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Младший тестировщик-программист 1 категории -->
      <div class="card">
-      <div class="card-header" id="headingSix">
+       <div class="card-header" id="headingSix">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <p><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
@@ -599,9 +601,9 @@
             </svg> Темы для: Младший тестировщик-программист 1 категории</strong></p>
           </button>
         </h2>
-      </div>
-     <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 1 категорией -->
-      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+       </div>
+       <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 1 категорией -->
+       <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -728,6 +730,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 3 категории -->
      <div class="card">
       <div class="card-header" id="headingSeven">
@@ -851,6 +854,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 2 категории -->
      <div class="card">
       <div class="card-header" id="headingEight">
@@ -973,6 +977,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 1 категории -->
      <div class="card">
       <div class="card-header" id="headingNine">
@@ -1079,6 +1084,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Старший тестировщик-программист 3 категории -->
      <div class="card">
       <div class="card-header" id="headingTen">
@@ -1166,6 +1172,7 @@
             </tbody>
           </table>
         </div>
+      </div>
       </div>
       <!-- Темы для: Старший тестировщик-программист 2 категории -->
      <div class="card">
@@ -1255,6 +1262,7 @@
           </table>
         </div>
       </div>
+      </div>
        <!-- Темы для: Старший тестировщик-программист 1 категории -->
      <div class="card">
       <div class="card-header" id="headingTwelve">
@@ -1336,13 +1344,21 @@
       <p>*Взято с таблицы переданные HR, информация может меняться, просим еще посматривать в таблицу HR</p>
       <a href="https://docs.google.com/spreadsheets/d/10WQz71u5GAc4J_LPBUUsjEq6wSKhEy_lDyh8igr2ffU/edit#gid=0" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Таблица HR</a>
       </div>
+      <br>
     </div>
-    <br>
+  </div>
+  <br>
   </div>
 </section>
-
-
-
+ <!---------------------------------Вставка футера-------------------------------------->
+ <footer class="footer">
+    <div class="container-fluid">
+     <img src="img/brend.png"  class="logo left">
+     <img src="img/dobrzaim.png"  class="logo left">
+     <p class="text-dark"><strong>Сделано от Web ОТ для ОТ</strong></p>
+    </div>
+  </footer>
+ <!-------------------------------------------------------------------------------------->
     <!-- Отдельные JS для Popper и Bootstrap -->
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

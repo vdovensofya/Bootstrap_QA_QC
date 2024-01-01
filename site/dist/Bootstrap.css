@@ -10,7 +10,7 @@ nav {
   }
   @media screen and (max-width: 950px) {
     .navbar-header {
-        float: none;
+    float: none;
     }
 
   .navbar{
@@ -64,4 +64,17 @@ nav {
   display: block;
   background-color: #e9ecef;
   border-color: #728191 !important;
+}
+
+.footer {
+  background:#e3f2fd;
+  height: 60px;
+  line-height: 60px;
+}
+
+img.logo {
+  height:55px;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
 }

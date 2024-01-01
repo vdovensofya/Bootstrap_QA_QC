@@ -14,15 +14,15 @@
     <script src="dist/bootstrap.js"></script>
   </head>
   <body>
-       <!-- Создание навигационного меню -->
- <header>
+<!---------------------------------Вставка хедера-------------------------------------->
+<header>
  <span class="border-bottom box">
   <?php include 'menu.php'; ?>
  </header>
  <header class="header">
- </header>
+</header>
   <!-------------------------------------------------------------------------------------->
-     <!-- Главная страница -->
+  <!-- Cтраница по ПО Грейды -->
 <section>
 <div class="bg-image">
    <div class="jumbotron">
@@ -432,6 +432,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Младший тестировщик-программист 2 категории -->
      <div class="card">
       <div class="card-header" id="headingFive">
@@ -537,6 +538,7 @@
             </tbody>
           </table>
         </div>
+      </div>
       </div>
       <!-- Темы для: Младший тестировщик-программист 1 категории -->
      <div class="card">
@@ -669,6 +671,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 3 категории -->
      <div class="card">
       <div class="card-header" id="headingSeven">
@@ -791,6 +794,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 2 категории -->
      <div class="card">
       <div class="card-header" id="headingEight">
@@ -906,6 +910,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Тестировщик-программист 1 категории -->
      <div class="card">
       <div class="card-header" id="headingNine">
@@ -1011,6 +1016,7 @@
           </table>
         </div>
       </div>
+      </div>
       <!-- Темы для: Старший тестировщик-программист 3 категории -->
      <div class="card">
       <div class="card-header" id="headingTen">
@@ -1098,6 +1104,7 @@
             </tbody>
           </table>
         </div>
+      </div>
       </div>
       <!-- Темы для: Старший тестировщик-программист 2 категории -->
      <div class="card">
@@ -1187,6 +1194,7 @@
           </table>
         </div>
       </div>
+      </div>
        <!-- Темы для: Старший тестировщик-программист 1 категории -->
      <div class="card">
       <div class="card-header" id="headingTwelve">
@@ -1268,10 +1276,21 @@
       <p>*Взято с таблицы переданные HR, информация может меняться, просим еще посматривать в таблицу HR</p>
       <a href="https://docs.google.com/spreadsheets/d/10WQz71u5GAc4J_LPBUUsjEq6wSKhEy_lDyh8igr2ffU/edit#gid=0" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Таблица HR</a>
       </div>
+      <br>
     </div>
-    <br>
+  </div>
+  <br>
   </div>
 </section>
+ <!---------------------------------Вставка футера-------------------------------------->
+ <footer class="footer">
+    <div class="container-fluid">
+     <img src="img/brend.png"  class="logo left">
+     <img src="img/dobrzaim.png"  class="logo left">
+     <p class="text-dark"><strong>Сделано от Web ОТ для ОТ</strong></p>
+    </div>
+  </footer>
+ <!-------------------------------------------------------------------------------------->
 
 
     <!-- Отдельные JS для Popper и Bootstrap -->
