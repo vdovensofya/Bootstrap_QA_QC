@@ -1351,13 +1351,18 @@
   </div>
 </section>
  <!---------------------------------Вставка футера-------------------------------------->
- <footer class="footer">
-    <div class="container-fluid">
-     <img src="img/brend.png"  class="logo left">
-     <img src="img/dobrzaim.png"  class="logo left">
-     <p class="text-dark"><strong>Сделано от Web ОТ для ОТ</strong></p>
+ <footer class="footer container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-xs-2">
+    <p>2024. Сделано от Web ОТ для ОТ</p>
     </div>
-  </footer>
+    <div class="col-md-4 logo">
+     <img src="img/brend.png" class="rounded float-end img-fluid" alt="Первая картинка">
+     <a href="https://disk.yandex.ru/i/ZFRrVGZLmB5MhA">
+       <img src="img/dobrzaim.png" class="rounded float-end img-fluid" alt="Вторая картинка">
+     </a>
+  </div>
+</footer>
  <!-------------------------------------------------------------------------------------->
     <!-- Отдельные JS для Popper и Bootstrap -->
     
