@@ -11,6 +11,8 @@
     <link type="text/css" href="dist/Bootstrap.css" rel="stylesheet">
     <title>QA/QC</title>
     <link rel="icon" href="img/logo.jpg" type="image/icon">
+    <!-- Подкллючение анимаций -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="dist/bootstrap.js"></script>
   </head>
   <body>
@@ -25,7 +27,7 @@
 <section>
   <div class="tab-conten" id="mainPage" class="page">
    <div class="bg-image d-flex justify-content-center align-items-center">
-     <div class="jumbotron tab-pane fade show active">
+     <div class="jumbotron tab-pane fade show active animate__animated animate__fadeInUp">
        <div class="container text-center">
          <h1>Всех приветствуем на сайте QA/QC!</h1>      
          <p>Сайт был создан для облегчения в поиске нужной информации по отделу ОТ, заменяет поиск нужных Excel табличек.</p>

@@ -1,20 +1,21 @@
 @import 'bootstrap/dist/style.css';
 
-
+/* цвет футера */
 nav {
     background-color: #e3f2fd;
   }
 
+/* Приветсвие */
 .jumbotron.tab-pane.fade.show.active {
     background-color:hsl(0, 0%, 100%);
   }
+/* Работа с бургером */
   @media screen and (max-width: 950px) {
     .navbar-header {
     float: none;
     }
-
   .navbar{
-    background:#e3f2fd;
+    background:#ffffff;
    }
    .nav-link , .navbar-brand{
     color: #000000;
@@ -24,8 +25,8 @@ nav {
     margin-right: 1em !important;
    }
    .nav-link:hover{
-    background: #f4f4f4;
-    color: #0a0a0a;
+    background: #ffffff;
+    color: #fffefe;
    }
    .navbar-collapse{
     justify-content: flex-end;
@@ -34,12 +35,12 @@ nav {
      background:#fff !important;
    }
 }
-
+/* Картинка на главной странице */
 .bg-image.d-flex.justify-content-center.align-items-center {
     background-image: url('https://w.forfun.com/fetch/b5/b5623d1d9fc68b886952942893852ce7.jpeg');
     height: 100vh;
   }
-
+/* градиент на других страницах */
   .bg-image { 
     background-image: linear-gradient(to right,#3c759e,#1c3685,#42275a, #734b6d);
    -webkit-background-size: cover;
@@ -47,15 +48,26 @@ nav {
    background-size: cover;
    -o-background-size: cover;
   }
-
+/* анимация при наведении на разделы */
   a.nav-link.dropdown-toggle {
     color: #0a0a0a;
+    background-image: linear-gradient(to right, #352384, #e90b8b); /* Параметры градиента */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-size: 10px 1px; /* Линия будет шириной 10px и высотой 2px */
+    background-position: left bottom; /* Положение в левом нижнем углу */
+    padding-bottom: 1px; /* Расстояние от текста до линии */
+    text-decoration: none; /* Убираем подчёркивание */
+    transition: 0.3s; /* Время перехода */
   }
-
+  /* ширина подчеркивания при наведении */
+  a.nav-link.dropdown-toggle:hover {
+    background-size: 100% 2px; /* Линия занимает всю ширину */
+   }
+/* сделать гиперссылки футера как черные (а не синие) */
   a.nav-link {
     color: #0a0a0a;
   }
-
+/* названия разделов Грейдов с синим бэком */
 .jumbotron {
   background:#cbe7fb;
  }
@@ -65,13 +77,13 @@ nav {
   background-color: #e9ecef;
   border-color: #728191 !important;
 }
-
+/* работа с футером */
 .footer {
   background:#e3f2fd;
   height: 50px;
   line-height: 30px;
 }
-
+/* расположение изображения в футере */
 img.rounded.float-end.img-fluid { 
   height:50px;
   margin-left: auto;

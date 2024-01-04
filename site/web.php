@@ -11,7 +11,12 @@
     <link type="text/css" href="dist/Bootstrap.css" rel="stylesheet">
     <title>QA/QC</title>
     <link rel="icon" href="img/logo.jpg" type="image/icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="dist/bootstrap.js"></script>
+    <script src="dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+     </script>
   </head>
   <body>
  <!---------------------------------Вставка хедера-------------------------------------->
@@ -26,7 +31,7 @@
 <section>
  <div class="bg-image">
    <div class="jumbotron">
-      <div class="container text-center">
+      <div class="container text-center animate__animated animate__slideInUp">
         <h1 class="display-6">Грейды для Web 2024г.</h1>
       </div>
    </div>
@@ -34,7 +39,7 @@
    <div class="container">
      <!-- Вопрос о Грейдах компании -->
      <div class="accordion" id="accordionExample">
-       <div class="card">
+       <div class="card wow animate__animated animate__slideInUp">
         <div class="card-header" id="headingOne">
              <h2 class="mb-0">
                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -65,7 +70,7 @@
        </div>
      </div>
      <!-- Темы для: Стажер тестировщик-программист -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -76,7 +81,7 @@
         </h2>
       </div>
       <!-- Перечисления тем для для Hard skills Стажер тестировщик-программист-->
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div id="collapseTwo" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -137,7 +142,7 @@
       </div>
      </div>
      <!-- Темы для: Младший тестировщик-программист -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
       <div class="card-header" id="headingThree">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -148,7 +153,7 @@
         </h2>
       </div>
       <!-- Перечисления тем для для Hard skills Младший тестировщик-программист -->
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div id="collapseThree" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -277,7 +282,7 @@
       </div>
      </div>
       <!-- Темы для: Младший тестировщик-программист 3 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
       <div class="card-header" id="headingFour">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -288,7 +293,7 @@
         </h2>
       </div>
      <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 3 категорией -->
-      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div id="collapseFour" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingFour" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -458,7 +463,7 @@
       </div>
       </div>
       <!-- Темы для: Младший тестировщик-программист 2 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingFive">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -469,7 +474,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 2 категорией -->
-       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+       <div id="collapseFive" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingFive" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -605,7 +610,7 @@
       </div>
       </div>
       <!-- Темы для: Младший тестировщик-программист 1 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingSix">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -616,7 +621,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Младший тестировщик-программист 1 категорией -->
-       <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+       <div id="collapseSix" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingSix" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -774,7 +779,7 @@
       </div>
       </div>
       <!-- Темы для: Тестировщик-программист 3 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingSeven">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -785,7 +790,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Тестировщик-программист 3 категорией -->
-       <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+       <div id="collapseSeven" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingSeven" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -881,7 +886,7 @@
       </div>
       </div>
       <!-- Темы для: Тестировщик-программист 2 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingEight">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -892,7 +897,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Тестировщик-программист 2 категорией -->
-       <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+       <div id="collapseEight" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingEight" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -1029,7 +1034,7 @@
       </div>
       </div>
       <!-- Темы для: Тестировщик-программист 1 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingNine">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -1040,7 +1045,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Тестировщик-программист 1 категорией -->
-       <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+       <div id="collapseNine" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingNine" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -1135,7 +1140,7 @@
       </div>
       </div>
       <!-- Темы для: Старший тестировщик-программист 3 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingTen">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
@@ -1146,7 +1151,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Старший тестировщик-программист 3 категории -->
-       <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+       <div id="collapseTen" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingTen" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -1224,7 +1229,7 @@
       </div>
       </div>
       <!-- Темы для: Старший тестировщик-программист 2 категории -->
-     <div class="card">
+     <div class="card wow animate__animated animate__slideInUp">
        <div class="card-header" id="headingEleven">
          <h2 class="mb-0">
            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
@@ -1235,7 +1240,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Старший тестировщик-программист 2 категории -->
-       <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+       <div id="collapseEleven" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingEleven" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>
@@ -1324,7 +1329,7 @@
          </h2>
        </div>
        <!-- Перечисления тем для для Hard skills Старший тестировщик-программист 1 категории -->
-       <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+       <div id="collapseTwelve" class="collapse wow animate__animated animate__rotateInDownLeft" aria-labelledby="headingTwelve" data-parent="#accordionExample">
         <div class="card-body">
           <div class="container">
             <p>*по результатам работы и усмотрению руководителя возможно повышение после  работы</p>

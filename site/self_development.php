@@ -11,6 +11,7 @@
     <link type="text/css" href="dist/Bootstrap.css" rel="stylesheet">
     <title>QA/QC</title>
     <link rel="icon" href="img/logo.jpg" type="image/icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="dist/bootstrap.js"></script>
   </head>
   <body>
@@ -25,7 +26,7 @@
 <section>
  <div class="bg-image">
    <div class="jumbotron">
-      <div class="container text-center">
+      <div class="container text-center animate__animated animate__slideInUp">
         <h1 class="display-6">Список для саморазвития</h1>
       </div>
    </div>

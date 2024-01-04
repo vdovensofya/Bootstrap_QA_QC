@@ -1,6 +1,6 @@
 
   <nav id="navmeny" class="navbar navbar-toggleable-md navbar-expand-lg navbar-light bg-faded">
-    <a class="navbar-brand" href="QA_QC.php">
+    <a class="navbar-brand animate__animated animate__pulse" href="QA_QC.php">
       <img src="img/title.jpeg" alt="logo" class="rounded-circle" style="width:80px;"> QA/QC 
     </a>
 
