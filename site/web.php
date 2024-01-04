@@ -524,7 +524,7 @@
               <tr>
                 <th>Pipline CI/CD (что это, виды интеграций, job(ы), gitlab-ci.yml и т.д.)</th>
                 <td>Что это, виды интеграций, job(ы), gitlab-ci.yml и т.д</td>
-                <td><a href="https://cs.fyi/guide/git-cheatsheet">Pipline CI/CD</a></td>
+                <td><a href="https://docs.gitlab.com/ee/ci/pipelines/">Pipline CI/CD</a></td>
                 <td>Ответы на вопросы КТ</td>
               </tr>
               <tr>
