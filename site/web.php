@@ -553,7 +553,7 @@
               <tr>
                 <th>Знакомство с api/rest api (что это, использование в тестировании)</th>
                 <td>Знать стили взаимодействия компонентов распределенного приложения в сети. Как использовать в тестировании</td>
-                <td><a href="https://vladislaveremeev.gitbook.io/qa_bible/seti-i-okolo-nikh/rest-soap-grpc">nightwatch</a></td>
+                <td><a href="https://vladislaveremeev.gitbook.io/qa_bible/seti-i-okolo-nikh/rest-soap-grpc">api/rest api</a></td>
                 <td>Ответы на вопросы КТ</td>
               </tr>
               <tr>
